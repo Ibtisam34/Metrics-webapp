@@ -16,9 +16,9 @@ const weatherReducer = (state = initialState, action) => {
 };
 export const getCurrentWeather = createAsyncThunk(
     GET_CURRENT_WEATHER,
-    async (city) => {
-        if(city) {
-            const response = await fetch(`${url}${city}&aqi=yes`);
+    async (cities) => {
+        if(cities) {
+            const response = await fetch(`${url}${cities}&aqi=yes`);
             const data = await response.json();
             return data;
         } else {

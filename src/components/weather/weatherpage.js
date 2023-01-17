@@ -28,7 +28,7 @@ const WeatherPage = () => {
                         if (search === '') {
                             return weather;
                         } if (
-                            weather.city.toLowerCase().includes(search.toLowerCase())
+                            weather.cities.toLowerCase().includes(search.toLowerCase())
                         ) {
                             return weather;
                         }
@@ -40,7 +40,7 @@ const WeatherPage = () => {
                             to={`/weather/${weather.city}`}
                             aria-hidden="true"
                         >
-                            <WeatherItem title={weather.city} temp={weather.temp} />
+                            <WeatherItem title={weather.cities} temp={weather.temp} />
                         </Link>
                     ))}
             </div>
