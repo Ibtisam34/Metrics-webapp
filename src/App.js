@@ -1,10 +1,10 @@
-
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Header';
 import States from './pages/weatherstate/weatherstates';
 import Countries from './pages/homepage/weathercountries';
 import Weather from './pages/weatherpage/weather';
-import './App.css'
+import './App.css';
+
 const App = () => (
   <>
     <Navbar />

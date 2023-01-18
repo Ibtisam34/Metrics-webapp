@@ -11,43 +11,40 @@
   margin: 20px;
   padding: 10px;
   text-align: center;
-  Background-color: rgb(138, 129, 130);
+  background-color: rgb(138, 129, 130);
   box-shadow: rgba(240, 46, 170, 0.4) -10px 10px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
+
 .card-title {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
 }
+
 .card-body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .card-text {
   font-size: 16px;
   margin-bottom: 10px;
 }
+
 /* Add media query for mobile styles */
 @media only screen and (max-width: 600px) {
   .card {
-      width: 90%;
-      margin: 10px;
+    width: 90%;
+    margin: 10px;
   }
+
   .card-title {
-      font-size: 18px;
+    font-size: 18px;
   }
+
   .card-text {
-      font-size: 14px;
+    font-size: 14px;
   }
 }
-
-
-
-
-
-
-
-
-

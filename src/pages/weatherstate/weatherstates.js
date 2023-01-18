@@ -3,7 +3,8 @@ import { useSelector } from 'react-redux';
 import { useLocation } from 'react-router-dom';
 import State from './weatherstate';
 import Weather from '../weatherpage/weather';
-import '../weatherstate/weatherstates.css'
+import './weatherstates.css';
+
 const States = () => {
   const location = useLocation();
   const countryName = location.state.name;
@@ -16,10 +17,10 @@ const States = () => {
         />
       </div>
       <div className="padding chooseState">
-        <h2 className='states-text'>
+        <h2 className="states-text">
           States
         </h2>
-        <p className='states-prag'>
+        <p className="states-prag">
           Choose a state:
           {' '}
           {countryState.states.length}

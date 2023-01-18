@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../homepage/weathercountry.css'
+import './weathercountry.css';
+
 const Country = ({
   name, states, iso3,
 }) => {

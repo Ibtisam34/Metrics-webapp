@@ -2,7 +2,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { CgArrowRightO } from 'react-icons/cg';
-import '../weatherstate/weatherstate.css'
+import './weatherstate.css';
+
 const State = ({ name, code }) => {
   const navigate = useNavigate();
   return (

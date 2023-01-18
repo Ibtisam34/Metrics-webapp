@@ -1,9 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaMicrophone, FaSearch } from 'react-icons/fa';
-import { ImSun } from "react-icons/im";
-import { ImReply } from "react-icons/im";
-import './Header.css'
+import { ImSun, ImReply } from 'react-icons/im';
+
+import './Header.css';
+
 const Navbar = () => (
   <header className="navbar-header-padding">
     <nav>

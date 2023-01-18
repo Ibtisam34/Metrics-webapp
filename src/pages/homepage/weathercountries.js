@@ -2,13 +2,13 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Country from './weathercountry';
 import { getCountries } from '../../redux/countriesState/countriesState';
-import '../homepage/weathercountries.css'
+import './weathercountries.css';
 
 const Countries = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getCountries());
-  }, []);
+  }, [dispatch]);
   const countries = useSelector((state) => (state.countries));
   return (
     <div
@@ -18,8 +18,8 @@ const Countries = () => {
       <div
         className="header-section"
       >
-        <h1 className='title-header'>World Weather</h1>
-        <p className='choose-country'>Choose a country</p>
+        <h1 className="title-header">World Weather</h1>
+        <p className="choose-country">Choose a country</p>
       </div>
       <div className="country-list-header">
         <h2 className="country-list-title">Countries</h2>
@@ -37,6 +37,4 @@ const Countries = () => {
     </div>
   );
 };
-
 export default Countries;
-

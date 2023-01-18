@@ -4,7 +4,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useLocation } from 'react-router-dom';
 import { IoLocationSharp } from 'react-icons/io5';
 import { getWeather } from '../../redux/weatherState/weatherState';
-import '../weatherpage/weather.css';
+import './weather.css';
+
 const Weather = ({ name }) => {
   const location = useLocation();
   const stateName = location.state.name;
@@ -12,7 +13,7 @@ const Weather = ({ name }) => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getWeather(locationName));
-  }, []);
+  }, [dispatch, locationName]);
   const weatherInfo = useSelector((state) => (state.stateWeather));
   if (!weatherInfo.weather) {
     return <p className="loading">loading...</p>;
@@ -21,7 +22,7 @@ const Weather = ({ name }) => {
     <div className="weather-container">
       <ul className="weather-info">
         <li className="weather-image">
-          <img src={weatherInfo.weather.condition.icon} alt="weater condition" className="weather-condition-icon"/>
+          <img src={weatherInfo.weather.condition.icon} alt="weater condition" className="weather-condition-icon" />
           <div>
             <div>
               <div>
@@ -84,7 +85,7 @@ const Weather = ({ name }) => {
             {' '}
             {weatherInfo.weather.cloud}
           </div>
-         <div className="condition-feelslike">
+          <div className="condition-feelslike">
             Feelslike_c:
             {' '}
             {weatherInfo.weather.feelslike_c}
@@ -96,7 +97,8 @@ const Weather = ({ name }) => {
           </div>
           <div className="condition-pressure-mb">
             Pressure mb:
-            {' '}{weatherInfo.weather.pressure_mb}
+            {' '}
+            {weatherInfo.weather.pressure_mb}
           </div>
           <div className="condition-uv">
             UV:
@@ -110,7 +112,8 @@ const Weather = ({ name }) => {
           </h4>
           <div className="air-quality-co">
             Co:
-            {' '}{weatherInfo.weather.air_quality.co}
+            {' '}
+            {weatherInfo.weather.air_quality.co}
           </div>
           <div className="air-quality-no2">
             NO2:
@@ -124,7 +127,8 @@ const Weather = ({ name }) => {
           </div>
           <div className="air-quality-pm2_5">
             pm2_5:
-            {' '}{weatherInfo.weather.air_quality.pm2_5}
+            {' '}
+            {weatherInfo.weather.air_quality.pm2_5}
           </div>
         </li>
       </ul>
@@ -132,18 +136,9 @@ const Weather = ({ name }) => {
   );
 };
 Weather.propTypes = {
-name: PropTypes.string,
+  name: PropTypes.string,
 };
 Weather.defaultProps = {
-name: '',
+  name: '',
 };
 export default Weather;
-
-
-
-
-
-
-
-
-
