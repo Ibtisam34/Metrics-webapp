@@ -1,27 +1,19 @@
-import './App.css';
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/navbar/navbar';
-import Weatherpage from './components/weather/weatherpage';
-import WeatherDetails from './components/weather/weatherDetails';
-function App() {
-    return (
-        <Router>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<Weatherpage />} />
-                <Route path="/weather/:city" element={<WeatherDetails />} />
-            </Routes>
-        </Router>
-    );
-}
+
+import { Route, Routes } from 'react-router-dom';
+import Navbar from './components/Header';
+import States from './pages/weatherstate/weatherstates';
+import Countries from './pages/homepage/weathercountries';
+import Weather from './pages/weatherpage/weather';
+import './App.css'
+const App = () => (
+  <>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Countries />} />
+      <Route path="states" element={<States />} />
+      <Route path="weather" element={<Weather />} />
+    </Routes>
+  </>
+);
+
 export default App;
-
-
-
-
-
-
-
-
-
