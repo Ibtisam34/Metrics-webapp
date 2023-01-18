@@ -27,20 +27,11 @@ describe('Testing Countries component', () => {
     const tree = renderer
       .create(
         <Provider store={store}>
-           <Countries />
-        </Provider>
-         
+          <Countries />
+        </Provider>,
+
       )
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
-
-
-
-
-
-
-
-
-
