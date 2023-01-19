@@ -1,4 +1,5 @@
 # # Metrics-webapp
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aa43f99a-9807-4c35-931a-5dbaf90bd75a/deploy-status)](https://app.netlify.com/sites/riyana5678/deploys)
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 <!-- TABLE OF CONTENTS -->
@@ -46,7 +47,7 @@ ESlint (is a tool for identifying and reporting on patterns found in ECMAScript/
 
 # 🚀 Live Demo
 Please use the following link to access the website:
-[live demo](https://riyana.netlify.app/)
+[live demo](https://riyana5678.netlify.app/)
 
 
 
