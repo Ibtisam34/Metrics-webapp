@@ -11,7 +11,7 @@
 .header-section {
   width: 100%;
   text-align: center;
-  background-color: rgba(211, 39, 134, 0.8);
+  background-color: #ff5294;
 }
 
 .country-list-header {
@@ -21,11 +21,16 @@
 }
 
 .country-card-container {
-  background-color: rgb(1, 6, 15);
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    background-color: #c0286f;
+    box-sizing: border-box;
+    -webkit-column-gap: .3%;
+    column-gap: .3%;
+    padding: 30px;
+    row-gap: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .8rem;
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
