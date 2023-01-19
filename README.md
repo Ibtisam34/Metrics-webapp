@@ -1,5 +1,5 @@
 # # Metrics-webapp
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aa43f99a-9807-4c35-931a-5dbaf90bd75a/deploy-status)](https://app.netlify.com/sites/riyana5678/deploys)
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 <!-- TABLE OF CONTENTS -->
 # :green_book: Table of Contents
