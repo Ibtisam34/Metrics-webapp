@@ -51,27 +51,23 @@ nav ul {
 
 @media only screen and (max-width: 768px) {
   /* Adjust styles for mobile */
-  .navbar-links-mobile {
-    display: none;
-  }
-
   .navbar-icons-mobile {
-    margin-left: 55%;
+    margin-left: 45%;
     padding: 0;
     width: 100%;
     justify-content: center;
   }
+}
 
-  .navbar-microphone-mobile,
-  .navbar-settings-mobile,
-  .navbar-search-bar-mobile,
-  .navbar-back-icon-mobile {
-    margin: 1rem;
-  }
+.navbar-microphone-mobile,
+.navbar-settings-mobile,
+.navbar-search-bar-mobile,
+.navbar-back-icon-mobile {
+  margin: 1rem;
+}
 
-  header.navbar-header {
-    position: relative;
-    border-bottom: none;
-    box-shadow: none;
-  }
+header.navbar-header {
+  position: relative;
+  border-bottom: none;
+  box-shadow: none;
 }
