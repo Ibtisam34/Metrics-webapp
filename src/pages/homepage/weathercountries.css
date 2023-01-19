@@ -1,0 +1,40 @@
+.countries-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-header {
+  padding-top: 70px;
+}
+
+.header-section {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(211, 39, 134, 0.8);
+}
+
+.country-list-header {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.country-card-container {
+  background-color: rgb(1, 6, 15);
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Add mobile-specific CSS styles here */
+  .countries-wrapper {
+    flex-direction: column;
+  }
+
+  .country-card-container {
+    flex-wrap: wrap;
+  }
+}

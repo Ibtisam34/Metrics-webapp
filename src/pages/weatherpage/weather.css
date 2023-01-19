@@ -1,0 +1,106 @@
+.condition-container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.weather-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.weather-info {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+.weather-image {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.temp {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000;
+}
+
+.weather-temp-c {
+  margin-right: 10px;
+  color: #000;
+}
+
+.location-name {
+  margin-top: 10px;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.location-time {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.location-icon {
+  margin-left: 10px;
+}
+
+.condition {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.condition-cloud,
+.condition-feelslike,
+.condition-pressure-in,
+.condition-pressure-mb,
+.condition-uv {
+  font-size: 14px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.air-quality-container {
+  margin-top: 20px;
+}
+
+.air-quality-title {
+  font-size: 18px;
+}
+
+.air-quality-co,
+.air-quality-no2,
+.air-quality-o3,
+.air-quality-so2,
+.air-quality-pm10,
+.air-quality-pm2_5 {
+  font-size: 14px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .temp {
+    font-size: 36px;
+  }
+
+  .location-name {
+    text-align: center;
+  }
+}
