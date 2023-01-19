@@ -52,11 +52,11 @@ nav ul {
 @media only screen and (max-width: 768px) {
   /* Adjust styles for mobile */
   .navbar-links-mobile {
-    display: none;
+   
   }
 
   .navbar-icons-mobile {
-    margin-left: 55%;
+    margin-left: 45%;
     padding: 0;
     width: 100%;
     justify-content: center;

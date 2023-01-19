@@ -37,4 +37,7 @@
   .country-card-container {
     flex-wrap: wrap;
   }
+  .title-header {
+    padding-top: 90px;
+  }
 }
