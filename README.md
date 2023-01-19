@@ -48,7 +48,7 @@ ESlint (is a tool for identifying and reporting on patterns found in ECMAScript/
 Please use the following link to access the website:
 [live demo](https://riyana.netlify.app/)
 
-[live presentation]()
+
 
 💻 Getting Started
 To get a local copy up and running, follow these steps.
