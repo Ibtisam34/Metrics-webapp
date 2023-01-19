@@ -47,6 +47,8 @@ ESlint (is a tool for identifying and reporting on patterns found in ECMAScript/
 # 🚀 Live Demo
 Please use the following link to access the website:
 [live demo](https://riyana5678.netlify.app/)
+
+# Presentation
 [live presentation](https://www.loom.com/share/fddfc6960af443308443f38ba92144b6)
 
 💻 Getting Started
@@ -102,7 +104,7 @@ npm run deploy
 
 
 
-👥 Authors
+👥 Author
 Mention all of the collaborators of this project.
 
 👤 **Riyana**
@@ -111,26 +113,34 @@ Mention all of the collaborators of this project.
 - Twitter: [@Queenjin2](https://twitter.com/Queenjin2)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/falis-abdikani)
 
-🔭 Future Features
+
+
+# # 🔭 Future Features
    continue modifying till I get the best app from my app
 
-🤝 Contributing
+# # 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
 (back to top)
 
-⭐️ Show your support
+
+
+# # ⭐️ Show your support
 Write a message to encourage readers to support your project
 
 If you like this project...
 
-🙏 Acknowledgments
+
+
+# # 🙏 Acknowledgments
 Microverse for providing the Design and guideline for this project.
 (back to top)
 
-❓ FAQ
+
+
+# # ❓ FAQ
 How can I find the node modules folder?
 
 The node modules folder was added to the gitignore file, so you need to install it manually
@@ -142,6 +152,8 @@ Which index.html file should I open to make some changes in src folder or dist f
 
 Please make change only to Html, CSS and JS files in the src directory
 (back to top)
+
+
 
 📝 License
 This project is MIT licensed.
