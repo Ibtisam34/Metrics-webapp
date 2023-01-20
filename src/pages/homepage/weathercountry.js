@@ -19,7 +19,7 @@ const Country = ({
       <h3 className="card-title">
         {name}
       </h3>
-      <div className="card-body">
+      <div>
         <p className="card-text">
           Iso:
           {' '}

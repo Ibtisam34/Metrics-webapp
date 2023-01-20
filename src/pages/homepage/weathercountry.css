@@ -1,15 +1,24 @@
+
 .card {
-  background-color: #d14279;
+  position: relative;
+  background: linear-gradient(rgba(209,66,121,0.9), rgba(209,66,121,0.9)), url('../../components/images/cover.png') center/cover;
   box-sizing: border-box;
   padding: 17px 12px;
+  cursor: pointer;
   height: 180px;
   width: 24.7%;
+  background-size: cover;
+  background-position: center;
+  column-gap: .3%;
+  row-gap: 3px;
+  z-index: 1;
 }
 
 .card-title {
+  margin-left: 40%;
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 3px;
 }
 
 .card-body {
@@ -20,7 +29,7 @@
 }
 
 .card-text {
-   margin-right: 70%;
+  margin-left: 66%;
   font-size: 16px;
   margin-bottom: 10px;
 }

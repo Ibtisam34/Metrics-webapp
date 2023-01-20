@@ -20,7 +20,7 @@ const Weather = ({ name }) => {
   }
   return (
     <div className="weather-container">
-      <ul className="weather-info">
+      <ul className="weather-padding">
         <li className="weather-image">
           <img src={weatherInfo.weather.condition.icon} alt="weater condition" className="weather-condition-icon" />
           <div>
@@ -59,20 +59,20 @@ const Weather = ({ name }) => {
               {' '}
               {weatherInfo.region}
             </h4>
-            <div className="location-coordinate">
-              <p className="location-lat">
+            <div>
+              <p>
                 Lat:
                 {' '}
                 {weatherInfo.lat}
               </p>
-              <p className="location-lon">
+              <p>
                 Lon:
                 {' '}
                 {weatherInfo.lon}
               </p>
             </div>
           </div>
-          <div className="location-icon">
+          <div className="location-container">
             <IoLocationSharp className="location-icon-img" />
           </div>
         </li>
@@ -80,52 +80,52 @@ const Weather = ({ name }) => {
           Condition:
         </h4>
         <li className="condition-container">
-          <div className="condition-cloud">
+          <div className="weather-list">
             Cloud:
             {' '}
             {weatherInfo.weather.cloud}
           </div>
-          <div className="condition-feelslike">
+          <div>
             Feelslike_c:
             {' '}
             {weatherInfo.weather.feelslike_c}
           </div>
-          <div className="condition-pressure-in">
+          <div className="weather-list" >
             Pressure in:
             {' '}
             {weatherInfo.weather.pressure_in}
           </div>
-          <div className="condition-pressure-mb">
+          <div>
             Pressure mb:
             {' '}
             {weatherInfo.weather.pressure_mb}
           </div>
-          <div className="condition-uv">
+          <div className="weather-list" >
             UV:
             {' '}
             {weatherInfo.weather.uv}
           </div>
         </li>
-        <li className="air-quality-container">
-          <h4 className="air-quality-title">
+        <li className="condition">
+          <h4>
             Air quality
           </h4>
-          <div className="air-quality-co">
+          <div>
             Co:
             {' '}
             {weatherInfo.weather.air_quality.co}
           </div>
-          <div className="air-quality-no2">
+          <div>
             NO2:
             {' '}
             {weatherInfo.weather.air_quality.no2}
           </div>
-          <div className="air-quality-o3">
+          <div>
             O3:
             {' '}
             {weatherInfo.weather.air_quality.o3}
           </div>
-          <div className="air-quality-pm2_5">
+          <div>
             pm2_5:
             {' '}
             {weatherInfo.weather.air_quality.pm2_5}

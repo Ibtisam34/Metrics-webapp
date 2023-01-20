@@ -1,74 +1,83 @@
 .condition-container {
-  margin-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 2rem;
+  margin-left: 0.7%;
 }
 
 .weather-container {
-  background-color: #f2f2f2;
-  padding: 20px;
+  background-color:#ff5294;
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
 }
 
-.weather-info {
+.weather-container ul { 
+color: #fff;
+list-style: none;
+display: flex;
+flex-direction: column;
+}
+
+.weather-padding {
+  padding: 1.5rem;
   list-style-type: none;
   margin: 0;
-  padding: 0;
   color: #000;
+  background-color: #ff5294;
 }
 
 .weather-image {
-  margin-top: 70px;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.268);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.weather-condition-icon {
+  width: 50%;
+  height: auto;
 }
 
 .temp {
   font-size: 48px;
   font-weight: bold;
-  color: #000;
 }
 
 .weather-temp-c {
-  margin-right: 10px;
-  color: #000;
+  font-size: 1.7rem;
+}
+
+.weather-temp-f {
+  font-size: 1.7rem;
 }
 
 .location-name {
-  margin-top: 10px;
-  font-size: 24px;
-  text-transform: capitalize;
-  color: #000;
+  font-size: 0.9rem;
 }
 
 .location-time {
-  font-size: 14px;
+  font-size: 16;
   margin-bottom: 10px;
-  color: #000;
 }
 
 .location-container {
   display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
   align-items: center;
-  margin-top: 20px;
+  padding-top: 2.5rem;
 }
 
-.location-icon {
-  margin-left: 10px;
+.location-icon-image {
+  width: 2rem;
+  height: auto;
 }
 
 .condition {
-  margin-top: 20px;
-  font-size: 18px;
-}
-
-.condition-cloud,
-.condition-feelslike,
-.condition-pressure-in,
-.condition-pressure-mb,
-.condition-uv {
-  font-size: 14px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .air-quality-container {
@@ -79,23 +88,19 @@
   font-size: 18px;
 }
 
-.air-quality-co,
-.air-quality-no2,
-.air-quality-o3,
-.air-quality-so2,
-.air-quality-pm10,
-.air-quality-pm2_5 {
-  font-size: 14px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
 .loading {
   text-align: center;
   font-size: 18px;
 }
 
 @media only screen and (max-width: 600px) {
+  .weather-padding {
+    padding-top: 4%;
+    cursor: pointer;
+  }
+   .weather-list {
+    margin-left: 2%;
+   }
   .temp {
     font-size: 36px;
   }

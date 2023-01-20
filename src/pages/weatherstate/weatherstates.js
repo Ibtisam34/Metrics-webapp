@@ -16,11 +16,11 @@ const States = () => {
           name={countryName}
         />
       </div>
-      <div className="padding chooseState">
-        <h2 className="states-text">
+      <div className="weather-padding chooseState">
+        <h2>
           States
         </h2>
-        <p className="states-prag">
+        <p>
           Choose a state:
           {' '}
           {countryState.states.length}
@@ -28,7 +28,7 @@ const States = () => {
           States
         </p>
       </div>
-      <div className="states padding">
+      <div className="states weather-padding">
         {countryState.states.map((state) => (
           <State
             name={state.name}
