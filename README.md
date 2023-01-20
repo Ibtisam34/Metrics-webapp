@@ -115,12 +115,12 @@ Mention all of the collaborators of this project.
 
 
 
-# # 🔭 Future Features
+# 🔭 Future Features
    continue modifying till I get the best app from my app
 
 
 
-# # 🤝 Contributing
+# 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
@@ -129,19 +129,20 @@ Feel free to check the issues page.
 
 
 
-# # ⭐️ Show your support
+# ⭐️ Show your support
 Write a message to encourage readers to support your project
 
 If you like this project...
 
 
 
-# # 🙏 Acknowledgments
-Hat tip to anyone whose code was used
-Microverse program
-[Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for providing the design
-Microverse team
-Our family's support
+# 🙏 Acknowledgments
+
+ Hat tip to anyone whose code was used
+ Microverse program
+ [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for providing the design
+ Microverse team
+ Our family's support
 
 (back to top)
 
