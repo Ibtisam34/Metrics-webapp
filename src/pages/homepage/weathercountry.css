@@ -1,7 +1,7 @@
 
 .card {
   position: relative;
-  background: linear-gradient(rgba(209,66,121,0.9), rgba(209,66,121,0.9)), url('../../components/images/cover.png') center/cover;
+  background: linear-gradient(rgba(209, 66, 121, 0.9), rgba(209, 66, 121, 0.9)), url('../../components/images/cover.png') center/cover;
   box-sizing: border-box;
   padding: 17px 12px;
   cursor: pointer;
@@ -9,7 +9,7 @@
   width: 24.7%;
   background-size: cover;
   background-position: center;
-  column-gap: .3%;
+  column-gap: 0.3%;
   row-gap: 3px;
   z-index: 1;
 }

@@ -6,17 +6,17 @@
 }
 
 .weather-container {
-  background-color:#ff5294;
+  background-color: #ff5294;
   width: 100%;
   padding-top: 4rem;
   padding-bottom: 2rem;
 }
 
-.weather-container ul { 
-color: #fff;
-list-style: none;
-display: flex;
-flex-direction: column;
+.weather-container ul {
+  color: #fff;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .weather-padding {
@@ -35,6 +35,7 @@ flex-direction: column;
   padding: 0.5rem;
   border-radius: 0.5rem;
 }
+
 .weather-condition-icon {
   width: 50%;
   height: auto;
@@ -58,7 +59,7 @@ flex-direction: column;
 }
 
 .location-time {
-  font-size: 16;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
@@ -98,9 +99,11 @@ flex-direction: column;
     padding-top: 4%;
     cursor: pointer;
   }
-   .weather-list {
+
+  .weather-list {
     margin-left: 2%;
-   }
+  }
+
   .temp {
     font-size: 36px;
   }

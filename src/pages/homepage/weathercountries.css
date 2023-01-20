@@ -21,29 +21,27 @@
 }
 
 .country-card-container {
-    background-color: #c0286f;
-    box-sizing: border-box;
-    -webkit-column-gap: .3%;
-    column-gap: .3%;
-    padding: 30px;
-    row-gap: 3px;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: .8rem;
-    width: 100%;
+  background-color: #c0286f;
+  box-sizing: border-box;
+  -webkit-column-gap: 0.3%;
+  column-gap: 0.3%;
+  padding: 30px;
+  row-gap: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
   .country-card-container {
     cursor: pointer;
-}
+    flex-wrap: wrap;
+  }
+
   /* Add mobile-specific CSS styles here */
   .countries-wrapper {
     flex-direction: column;
-  }
-
-  .country-card-container {
-    flex-wrap: wrap;
   }
 
   .title-header {
