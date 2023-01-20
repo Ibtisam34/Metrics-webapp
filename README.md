@@ -49,7 +49,7 @@ Please use the following link to access the website:
 [live demo](https://riyana5678.netlify.app/)
 
 # Presentation
-[live presentation](https://www.loom.com/share/fddfc6960af443308443f38ba92144b6)
+[live presentation](https://www.loom.com/share/9b5a272bf5f94f75bae2d51772f4df61)
 
 💻 Getting Started
 To get a local copy up and running, follow these steps.
