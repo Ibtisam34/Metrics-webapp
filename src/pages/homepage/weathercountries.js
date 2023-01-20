@@ -20,8 +20,8 @@ const Countries = () => {
       >
         <h1 className="title-header">World Weather</h1>
         <p className="choose-country">Choose a country</p>
-      <div className="country-list-header">
-        <h2 className="country-list-title">Countries</h2>
+        <div className="country-list-header">
+          <h2 className="country-list-title">Countries</h2>
         </div>
       </div>
       <div className="country-card-container">

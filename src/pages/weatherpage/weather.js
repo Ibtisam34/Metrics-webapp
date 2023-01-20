@@ -90,7 +90,7 @@ const Weather = ({ name }) => {
             {' '}
             {weatherInfo.weather.feelslike_c}
           </div>
-          <div className="weather-list" >
+          <div className="weather-list">
             Pressure in:
             {' '}
             {weatherInfo.weather.pressure_in}
@@ -100,7 +100,7 @@ const Weather = ({ name }) => {
             {' '}
             {weatherInfo.weather.pressure_mb}
           </div>
-          <div className="weather-list" >
+          <div className="weather-list">
             UV:
             {' '}
             {weatherInfo.weather.uv}
