@@ -3,25 +3,21 @@
   flex-direction: column;
   align-items: center;
 }
-
 .title-header {
   padding-top: 88px;
 }
-
 .header-section {
   width: 100%;
   text-align: center;
-  background-color: #ff5294;
+  background-color: #FF5294;
 }
-
 .country-list-header {
   margin-top: 20px;
   width: 100%;
   text-align: center;
 }
-
 .country-card-container {
-  background-color: #c0286f;
+  background-color: #C0286F;
   box-sizing: border-box;
   -webkit-column-gap: 0.3%;
   column-gap: 0.3%;
@@ -32,19 +28,27 @@
   font-size: 0.8rem;
   width: 100%;
 }
-
 @media only screen and (max-width: 600px) {
   .country-card-container {
     cursor: pointer;
-    flex-wrap: wrap;
-  }
-
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    column-gap: 0;
+    row-gap: 0;
+}
   /* Add mobile-specific CSS styles here */
   .countries-wrapper {
     flex-direction: column;
   }
-
   .title-header {
     padding-top: 90px;
   }
 }
+
+
+
+
+
+
+
