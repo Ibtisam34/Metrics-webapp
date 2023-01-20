@@ -1,5 +1,4 @@
 
-
 .card {
   position: relative;
   background: linear-gradient(rgba(209, 66, 121, 0.9), rgba(209, 66, 121, 0.9)), url('../../components/images/cover.png') center/cover;
@@ -45,29 +44,19 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   .card {
     width: 50%;
     margin: 0;
   }
+
   .card-title {
     text-align: right;
     font-size: 18px;
   }
+
   .card-text {
     text-align: right;
     font-size: 14px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
