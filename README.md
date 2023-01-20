@@ -118,6 +118,8 @@ Mention all of the collaborators of this project.
 # # 🔭 Future Features
    continue modifying till I get the best app from my app
 
+
+
 # # 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
@@ -135,7 +137,12 @@ If you like this project...
 
 
 # # 🙏 Acknowledgments
-Microverse for providing the Design and guideline for this project.
+Hat tip to anyone whose code was used
+Microverse program
+[Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for providing the design
+Microverse team
+Our family's support
+
 (back to top)
 
 
